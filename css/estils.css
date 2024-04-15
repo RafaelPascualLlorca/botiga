@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#titul {
+    font-size: 50px;
+    padding-top: 2%;
+}
+
+#eslogan {
+    font-size: 30px;
+    padding-bottom: 3%;
+}
+
+#titul, #eslogan {
+    color: rgb(16, 165, 214);
+}
+
+#presentacion {
+    background-color: rgb(66, 62, 57);
+    text-align: center;
+}
+
+#presentacion img {
+    width: 300px;
+    height: 300px;
+}
+
+#imagenes {
+    display: flex;
+}
+
+.col {
+    display: block;
+    text-align: center;
+}
+
+#imagenes img {
+    width: 300px;
+    height: 300px;
+}
